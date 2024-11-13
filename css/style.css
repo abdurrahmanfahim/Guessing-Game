@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    background: #000000cb;
+    color: rgb(252, 231, 205);
+    user-select: none;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 100px;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-family: "Genos", sans-serif;
+}
+
+.container {
+    width: 80%;
+    height: 55vh;
+    /* margin: 10% auto; */
+    /* margin-top: 10%; */
+    border: darkgrey 1px solid;
+    border-radius: 10px;
+    padding: 5%;
+}
+
+.syndicate-box {
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+}
+
+.chances {
+    color: cadetblue;
+    display: none;
+}
+
+#s-input, #y-input {
+    padding: 5px 5px 5px 15px;
+    border: none;
+    outline: none;
+    background-color: dimgrey;
+    border-radius: 5px;
+    color: chocolate;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+#s-input::placeholder, #y-input::placeholder {
+    color: rgba(219, 214, 214, 0.685);
+}
+
+#s-button, #y-button {
+    padding: 5px 15px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: rgb(252, 231, 205);
+    background-color: darksalmon;
+}
+
+.warning {
+    color: rgb(165, 42, 42);
+    display: none;
+}
+.marning {
+    color: rgb(165, 42, 42);
+
+}
+
+.result {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+h2 {
+    font-family: "Rouge Script", cursive;
+    font-size: 45px;
+    margin-top: 10px;
+}
+
+
+.p2 {
+    display: none;
+}
+
+.marquee {
+    font-size: 50px;
+    color: brown;
+}
+
+
+@media (max-width: 575.99px) {
+    
+    .container {
+        height: 80vh;
+    }
+    h3 {
+        line-height: 100%;
+        margin-bottom: 20px;
+    }
+    .syndicate-box {
+        text-align: left;
+
+    }
+    .result {
+        font-size: 18.5px;
+    }
+    h2 {
+        text-align: center;
+    }
+
+}
+
+

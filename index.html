@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guessing Game</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Genos:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rouge+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div class="p1">
+
+            <h3>
+                Syndicate🧛🏼
+            </h3>
+    
+            <div class="syndicate-box">
+    
+                <input id="s-input" type="password" placeholder="Put Your Stocked Items">
+    
+                <button id="s-button">Put</button><br>
+    
+                <small class="warning"></small>
+    
+            </div>
+
+        </div>
+
+<!--  -->
+        <div class="p2">
+
+            <h3>
+                Yousuf Government🕵🏼
+            </h3>
+    
+            <div class="syndicate-box">
+    
+                <small class="chances">You Have <span id="count"></span> Chances</small>
+    
+                <input id="y-input" type="text" placeholder="Guess The Ammount">
+    
+                <button id="y-button">Guess</button><br>
+    
+                <small class="marning">Guess The Number between 0-9</small>
+    
+                <p class="result"></p>
+    
+                <h2 class="congrate-box"></h2>
+    
+            </div>
+
+        </div>
+
+    </div>
+    <div class="marquee">
+
+    </div>
+
+    
+    <script src="./js/script.js"></script>
+</body>
+</html>
