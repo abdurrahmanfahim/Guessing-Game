@@ -130,19 +130,19 @@ function errorShowingS (err) {
 
   if (err == "txt") {
 
-    warning.innerHTML = "you have must put any number";
+    warning.innerHTML = "you must enter a number here";
     warning.style.display = "block";
 
   }
   else if (err == "empty") {
 
-    warning.innerHTML = "you can't empty your input!";
+    warning.innerHTML = "you can not leave this blank!";
     warning.style.display = "block";
     
   }
   else if (err == ">9") {
 
-    warning.innerHTML = "you have must put a number between 0-9";
+    warning.innerHTML = "you must enter a number here between 0-9";
     warning.style.display = "block";
 
   }
@@ -154,17 +154,17 @@ function errorShowingY (err) {
 
   if (err == "txt") {
 
-    marning.innerHTML = "you have must put any number";
+    marning.innerHTML = "you must enter a number here";
 
   }
   else if (err == "empty") {
 
-    marning.innerHTML = "you can't empty your input!";
+    marning.innerHTML = "you can not leave this blank!";
     
   }
   else if (err == ">9") {
 
-    marning.innerHTML = "you have must put a number between 0-9";
+    marning.innerHTML = "you must enter a number here between 0-9";
 
   }
 
